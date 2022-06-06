@@ -1,0 +1,102 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+#row,
+.row {
+  display: flex;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+input {
+  height: 40px;
+  text-align: center;
+}
+
+.inputs_other {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 200px 200px;
+  margin-bottom: 2rem;
+}
+
+.col {
+  height: 40px;
+  width: 133.7px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.695);
+}
+
+.green {
+  background-color: rgba(0, 128, 0, 0.472);
+}
+
+#add {
+  width: 12rem;
+  height: 2rem;
+}
+
+/* About us  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+  padding: 40px;
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.accordion {
+  width: 80vw;
+}
+
+.about-us {
+}
+
+.heading-acc {
+  height: 40px;
+  margin: 0;
+}
+
+.row_about {
+  display: flex;
+  gap: 40px;
+}
+
+.col_about {
+  text-align: justify;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.youtube {
+  width: 80vw;
+  height: 60vh;
+}

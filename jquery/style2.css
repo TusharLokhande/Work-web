@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.row {
+  width: 60vw;
+  padding: 10px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 10px 3px #ddd;
+  border-radius: 10px;
+}
+
+.text {
+  height: 35px;
+  padding-left: 10px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  height: 40px;
+  border: 1px black solid;
+}
+
+select::after {
+  outline: 1px solid blue;
+}
+
+.col-4 {
+  align-self: flex-end;
+  padding-right: 200px;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.save {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  width: 100px;
+}
+
+.cancel {
+  background-color: #fff;
+  color: #4a90e2;
+  border: none;
+  width: 100px;
+}
+
+.row_2 {
+  display: flex;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  box-shadow: 3px 3px 10px 3px #ddd;
+}
+.col_2 {
+  display: flex;
+  padding-left: 40px;
+}
+
+.col_2 h3 {
+  margin: 10px;
+  margin-right: 40px;
+}
+
+.col_2 h5 {
+  margin: 10px;
+  margin-right: 40px;
+}
+
+#remove {
+  height: 25px;
+  margin-top: 8px;
+  font-size: 10px;
+  margin-left: 100px;
+}
+
+.skill {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #4a90e2;
+  padding-left: 10px;
+  width: 200px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.skill:active,
+.skill::selection,
+.skill:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4a90e2;
+}
+
+#addSkill {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#remove {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.center {
+  text-align: center;
+  padding-left: 60px;
+}
+.js {
+  padding-left: 20px;
+}
+
+.in {
+  margin-bottom: 50px;
+}
