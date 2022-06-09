@@ -50,9 +50,9 @@ $(document).ready(() => {
 
   let i = 1;
 
-  function op() {
+  const op = () => {
     i++;
-  }
+  };
 
   $("#add").on("click", () => {
     let name = $("#name").val();

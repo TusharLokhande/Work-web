@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JQuery  -->
+    <script src="./jquery-3.6.0.min.js"></script>
+
+    <!-- CDN  -->
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  </head>
+  <body onload="fetchData();">
+    <div class="main">
+      <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <td><input type="checkbox" id="select_all" /></td>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Nation</td>
+          </tr>
+        </thead>
+
+        <tfoot></tfoot>
+
+        <tbody id="body"></tbody>
+      </table>
+    </div>
+    <div class="buttons">
+      <button id="submit">Submit</button>
+      <button id="delete">Delete</button>
+    </div>
+
+    <div id="d"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-left: 2rem;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+  width: 80px;
+  transition: 0.6s ease-out all;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#submit {
+  background-color: rgb(249, 98, 131);
+  color: #fff;
+}
+#submit:hover {
+  background-color: rgb(251, 54, 96);
+  outline: 2px solid rgb(255, 0, 55);
+  transform: translateY(-4px);
+}
+
+#delete {
+  background-color: rgba(65, 105, 225, 0.858);
+  color: #fff;
+}
+
+#delete:hover {
+  background-color: rgb(37, 86, 235);
+  outline: 1px solid blue;
+  transform: translateY(-5px);
+}
+
+#delete:active,
+#submit:active {
+  transform: translateY(5px);
+}
+
+li {
+  color: red;
+}
+
+.main {
+  padding: 4rem;
+}
+
+table {
+  outline: 2px solid rgba(128, 128, 128, 0.707);
+}

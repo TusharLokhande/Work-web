@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Naruto",
+    "age": 20,
+    "nation": "Hidden Leaf"
+  },
+  {
+    "id": 2,
+    "name": "Sasuke",
+    "age": 20,
+    "nation": "Hidden Leaf"
+  },
+  {
+    "id": 3,
+    "name": "Sakura",
+    "age": 20,
+    "nation": "Hidden Leaf"
+  },
+  {
+    "id": 4,
+    "name": "Itachi",
+    "age": 20,
+    "nation": "Hidden Leaf"
+  },
+  {
+    "id": 5,
+    "name": "Kisame",
+    "age": 20,
+    "nation": "Hidden Mist"
+  },
+  {
+    "id": 6,
+    "name": "Tsunade",
+    "age": 20,
+    "nation": "Hidden Leaf"
+  },
+  {
+    "id": 7,
+    "name": "A",
+    "age": 20,
+    "nation": "Hidden Cloud"
+  },
+  {
+    "id": 8,
+    "name": "Kabuto",
+    "age": 20,
+    "nation": "Hidden Stone"
+  },
+  {
+    "id": 9,
+    "name": "Temari",
+    "age": 20,
+    "nation": "Hidden Sand"
+  },
+  {
+    "id": 10,
+    "name": "Gaara",
+    "age": 20,
+    "nation": "Hidden Sand"
+  },
+  {
+    "id": 11,
+    "name": "op",
+    "age": 20,
+    "nation": "Hidden Sand"
+  }
+]

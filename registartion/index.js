@@ -1,45 +1,40 @@
-function validation() {
-  let firstname = document.getElementById("firstname").value;
-  console.log(firstname);
+$(document).ready(
+  $("#btn").on("click", () => {
+    let firstname = $("#firstname").val();
+    let lastname = $("#lastname").val();
+    let pass = $("#pass").val();
+    let confirmpass = $("#confirmpass").val();
+    let email = $("#email").val();
+    let phone = $("#phone").val();
 
-  let lastname = document.getElementById("lastname").value;
-  let pass = document.getElementById("pass").value;
-  let confirmpass = document.getElementById("confirmpass").value;
-  let email = document.getElementById("email").value;
-  let phone = document.getElementById("phone").value;
-  var e = document.getElementById("select");
-  let option = e.options[e.selectedIndex].value;
-  let male = document.getElementById("r");
-  let female = document.getElementById("r1");
+    let male = $("r").val();
+    let female = $("r1").val();
 
-  if (firstname == "" || lastname == "") {
-    alert("Enter FirstName and LastName");
-    return;
-  }
+    if (firstname == "" || lastname == "") {
+      alert("Enter FirstName and LastName");
+      return;
+    }
 
-  if (pass == "") {
-    alert("Please enter password");
-  }
+    if (pass == "") {
+      alert("Please enter password");
+    }
 
-  if (pass != confirmpass) {
-    alert("Password doesnot match");
-  }
+    if (pass != confirmpass) {
+      alert("Password doesnot match");
+    }
 
-  if (option == "0") {
-    alert("Please select security question!");
-  }
+    if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+      alert("Please enter correct email");
+      return;
+    }
 
-  if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-    alert("Please enter correct email");
-    return;
-  }
+    let phoneno = /^\d{10}$/;
+    if (!phoneno.test(phone)) {
+      alert("Enter proper phone no.");
+    }
 
-  let phoneno = /^\d{10}$/;
-  if (!phoneno.test(phone)) {
-    alert("Enter proper phone no.");
-  }
-
-  if (male.checked != true && female.checked != true) {
-    alert("please select gender");
-  }
-}
+    if (male.checked != true && female.checked != true) {
+      alert("please select gender");
+    }
+  })
+);
